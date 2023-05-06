@@ -45,7 +45,6 @@ class _WelcomeState extends State<Welcome> {
 
     Constants constants = Constants();
     Size size = MediaQuery.of(context).size;
-    Future<SharedPreferences> pref = SharedPreferences.getInstance();
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
